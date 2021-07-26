@@ -1,0 +1,19 @@
+@import "header";
+@import "home";
+@import "community";
+@import "about";
+@import "reviews";
+@import "account";
+@import "inspiration";
+@import "partnership";
+@import "footer";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}

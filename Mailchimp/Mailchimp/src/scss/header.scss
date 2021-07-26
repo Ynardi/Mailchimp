@@ -1,0 +1,70 @@
+.header{
+  .header__nav{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    .header__menu{
+      padding: 34px 0 36px 43px;
+      width: 486px;
+      .header__menu-link{
+        margin-right: 44px;
+        text-decoration: none;
+        color: #241C15;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .header__logo{
+      margin: 22px 179px;
+      .logo-img{
+
+
+      }
+    }
+    .headerBtn__box{
+      width: 407px;
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      right: 0;
+      .headerBtn__logIn{
+        width: 115px;
+        height: 43px;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #241C15;
+        padding: 12px 29px 11px;
+        margin: 21px 24px 21px 105px;
+      }
+      .headerBtn__sup{
+        width: 131px;
+        height: 43px;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #007C89;
+        padding: 12px 16px;
+        margin: 21px 45px 21px 0;
+        border: none;
+      }
+    }
+  }
+}
