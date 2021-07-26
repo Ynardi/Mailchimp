@@ -14,12 +14,13 @@
     height: 507px;
     margin: 119px auto 0;
     .row{
-      max-width: 1235px;
+      max-width: 1335px;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       .col-4{
         &.first{
+          //width: 385px;
           margin-right: 49px;
           .tips__subtitle{
             margin-top: 8px;
@@ -29,6 +30,7 @@
             font-size: 24px;
             line-height: 55px;
             color: #692340;
+            padding: 0;
           }
           .tips__title{
             font-family: Roboto,sans-serif;
@@ -49,6 +51,7 @@
           }
         }
         &.second{
+          //width: 354px;
           margin-right: 92px;
           .tips__subtitle{
             margin-top: 8px;
@@ -78,6 +81,7 @@
           }
         }
         &.third{
+          //width: 354px;
           .tips__subtitle{
             margin-top: 8px;
             font-family: Roboto,sans-serif;

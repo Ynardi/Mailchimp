@@ -12,43 +12,5 @@
     color: #692340;
     margin-bottom: 68px;
   }
-  .owl-box{
-    height: 666px;
-    position: relative;
-    .box{
-      margin:0 auto;
-      position: relative;
-      background: #FFFFFF;
-      .box__img{
-      }
-      .owl-box__text{
-        position: absolute;
-        top: 0;
-        right: 60px;
-        .owl-title{
-          width: 350px;
-          height: 572px;
-          margin-bottom: 73px;
-          position: absolute;
-          top: 0;
-          right: 0;
-          font-family: Roboto,sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 40px;
-          line-height: 44px;
-          color: #692340;
-          .owl-text{
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 22px;
-            color: #692340;
-            margin-top: 73px;
-          }
-        }
-      }
-    }
-  }
+
 }

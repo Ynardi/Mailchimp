@@ -1,3 +1,7 @@
+@import "../lbr/bootstrap/bootstrap-grid.min.css";
+@import "../lbr/owl/owl.carousel.min.css";
+@import "../lbr/owl/owl.theme.default.min.css";
+@import "../lbr/fontawesome/all.min.css";
 .header .header__nav {
   margin: 0 auto;
   max-width: 1440px;
@@ -495,43 +499,6 @@
   color: #692340;
   margin-bottom: 68px;
 }
-.reviews .owl-box {
-  height: 666px;
-  position: relative;
-}
-.reviews .owl-box .box {
-  margin: 0 auto;
-  position: relative;
-  background: #FFFFFF;
-}
-.reviews .owl-box .box .owl-box__text {
-  position: absolute;
-  top: 0;
-  right: 60px;
-}
-.reviews .owl-box .box .owl-box__text .owl-title {
-  width: 350px;
-  height: 572px;
-  margin-bottom: 73px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 44px;
-  color: #692340;
-}
-.reviews .owl-box .box .owl-box__text .owl-title .owl-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #692340;
-  margin-top: 73px;
-}
 
 .account {
   padding: 160px 0 216px;
@@ -597,7 +564,7 @@
   margin: 119px auto 0;
 }
 .inspiration .tips .row {
-  max-width: 1235px;
+  max-width: 1335px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -619,6 +586,7 @@
   font-size: 24px;
   line-height: 55px;
   color: #692340;
+  padding: 0;
 }
 .inspiration .tips .row .col-4.first .tips__title {
   font-family: Roboto, sans-serif;
