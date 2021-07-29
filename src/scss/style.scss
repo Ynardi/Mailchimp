@@ -2,12 +2,6 @@
 //@import "../fonts/roboto/stylesheet.css";
 @import "../lbr/owl/owl.carousel.min.css";
 @import "../lbr/owl/owl.theme.default.min.css";
-<<<<<<< HEAD
-@import "../lbr/fontawesome/all.min.css";
-
-
-
-=======
 @import "../lbr/fontawesome/css/all.min.css";
 
 
@@ -20,10 +14,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
- body {
+body {
   overflow-x: hidden;
 }
->>>>>>> 3c48215748c38f2bb323c117dadecd9e6ec61de9
 @import "header";
 @import "home";
 @import "community";
@@ -33,16 +26,3 @@
 @import "inspiration";
 @import "partnership";
 @import "footer";
-<<<<<<< HEAD
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container{
-  max-width: 1440px;
-  margin: 0 auto;
-}
-=======
->>>>>>> 3c48215748c38f2bb323c117dadecd9e6ec61de9
