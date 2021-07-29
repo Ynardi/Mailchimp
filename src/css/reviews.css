@@ -1,0 +1,16 @@
+.reviews {
+  height: 912px;
+  background: pink;
+}
+.reviews .reviews__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #692340;
+  margin-bottom: 68px;
+}
+/*# sourceMappingURL=reviews.css.map */

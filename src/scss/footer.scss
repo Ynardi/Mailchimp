@@ -1,0 +1,168 @@
+.footer{
+  padding: 120px 0;
+  .footer__block-top{
+    max-width: 1236px;
+    height: 360px;
+    padding: 0 96px;
+    margin: 0 auto 60px;
+    .row{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      justify-content: space-between;
+      .col-2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        .block-top_title{
+          font-family: Roboto,sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 16px;
+          color: #241C15;
+          margin-bottom: 29px;
+        }
+        .block-top_link{
+          margin-bottom: 13px;
+          font-family: Roboto,sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 18px;
+           color: #241C15;
+          text-decoration: none;
+        }
+        .box-top{
+          margin-bottom: 56px;
+          .box-top__text{
+            margin-top: 13px;
+            margin-bottom: 12px;
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 19px;
+            color: #241C15;
+          }
+          .cio__Btn{
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            color: #241C15;
+            text-decoration: none;
+          }
+        }
+        .box-bottom{
+          .box-bottom__text{
+            margin-top: 13px;
+            margin-bottom: 12px;
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 19px;
+            color: #241C15;
+          }
+          .lm__Btn{
+            font-family: Roboto,sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            color: #241C15;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .footer__block-bottom{
+    max-width:1161px;
+    height: 146px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 129px auto 0;
+    justify-content: space-between;
+    .box__btn{
+      width: 350px;
+      height: 33px;
+     margin-top: 56px;
+      .Btn__AS{
+        margin-left: 101px;
+        background: #000;
+        width: 98px;
+        height: 28px;
+        border: none;
+      }
+      .Btn__GP{
+        margin-left: 27px;
+        width: 99px;
+        height: 29px;
+        background: #000;
+        border: none;
+      }
+    }
+    .box-icon{
+      height: 23px;
+      width: 349px;
+      margin: 61px 0;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      padding: 0 58px;
+      .box-icon-img{
+        width: 18px;
+        height: 18px;
+        &:nth-child(5){
+          width: 20px;
+          height: 14px;
+          margin: 2px 0 6px;
+        }
+      }
+    }
+    .box-text{
+      button{
+        width: 125px;
+        height: 40px;
+        border: 1px solid #241C15;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding: 8px 7px;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #403B3B;
+        margin-bottom: 17px;
+      }
+      .box-text__text{
+        width: 292px;
+        height: 75px;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #241C15;
+      }
+      .box-text__text2{
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #241C15;
+        margin-left: 127px;
+      }
+    }
+  }
+}
