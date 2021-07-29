@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 .reviews {
   height: 912px;
   background: pink;
 }
+=======
+>>>>>>> 3c48215748c38f2bb323c117dadecd9e6ec61de9
 .reviews .reviews__title {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -11,6 +14,10 @@
   text-align: center;
   letter-spacing: 0.5px;
   color: #692340;
+<<<<<<< HEAD
   margin-bottom: 68px;
 }
 /*# sourceMappingURL=reviews.css.map */
+=======
+}
+>>>>>>> 3c48215748c38f2bb323c117dadecd9e6ec61de9
